@@ -1,12 +1,17 @@
-.section-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-.section-item {
-  width: 370px;
-  flex-wrap: calc((100% - 90px) / 3);
-  margin-top: 30px;
-  margin-left: 30px;
+.section {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  &-item {
+    width: 370px;
+    flex-wrap: calc((100% - 90px) / 3);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  &-about {
+    padding-top: 0;
+  }
 }
