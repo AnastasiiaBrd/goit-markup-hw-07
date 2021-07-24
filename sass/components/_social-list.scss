@@ -1,4 +1,4 @@
-.team-list {
+.team__social {
   display: flex;
   justify-content: space-between;
   margin: 16px 32px 30px 32px;
@@ -13,8 +13,7 @@
     fill: var(--main-color);
   }
 }
-
-.social-link-icon {
+.social__link-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,22 +29,17 @@
     background-color: var(--link-color);
   }
 }
-.social-list {
+.social__list {
   display: flex;
 }
-.social-item {
+.social__item {
   margin-right: 10px;
 
   &:last-child {
     margin-right: 0;
   }
 }
-
-.footer-icon {
-  background: rgba(255, 255, 255, 0.1);
-  fill: var(--main-color);
-}
-.social-icon {
+.social__icon {
   width: 20px;
   height: 20px;
 }

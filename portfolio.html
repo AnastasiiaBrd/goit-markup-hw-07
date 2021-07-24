@@ -23,35 +23,35 @@
     <!--Верхняя линия-->
     <header class="header">
       <div class="container header-container">
-        <a class="logo-link header-logo link" href="/"
-          ><span class="logo-web">Web</span>Studio</a
+        <a class="header__logo logo link" href="/"
+          ><span class="logo__web">Web</span>Studio</a
         >
         <!--Навигация на другие страницы-->
         <nav class="navigation">
-          <ul class="menu-list list">
-            <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Студия</a>
+          <ul class="menu__list list">
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html">Студия</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link current" href="/Портфолио">Портфолио</a>
+            <li class="menu__item">
+              <a class="menu__link link current" href="/Портфолио">Портфолио</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="/Контакты">Контакты</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="/Контакты">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts-list list">
-          <li class="header-contacts-list-item">
-            <a class="contact-link link" href="/info@devstudio.com">
-              <svg class="header-icon-mail">
+        <ul class="header__contacts list">
+          <li class="header__contacts-item">
+            <a class="contacts__link link" href="/info@devstudio.com">
+              <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-list-item">
-            <a class="contact-link link" href="/+380961111111">
-              <svg class="header-icon-mobile">
+          <li class="header__contacts-item">
+            <a class="contacts__link link" href="/+380961111111">
+              <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#icon-mobile"></use>
               </svg>
               +38 096 111 11 11</a
@@ -65,28 +65,28 @@
       <section class="section">
         <div class="container portfolio-container">
           <h1 hidden>Фильтры</h1>
-          <ul class="filter-list list">
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Все</button>
+          <ul class="filter__list list">
+            <li class="filter__item">
+              <button class="filter-button" type="button">Все</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Веб-сайты</button>
+            <li class="filter__item">
+              <button class="filter-button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Приложения</button>
+            <li class="filter__item">
+              <button class="filter-button" type="button">Приложения</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter-button" type="button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button class="filter-btn" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="filter-button" type="button">Маркетинг</button>
             </li>
           </ul>
           <h2 hidden>Портфолио</h2>
-          <ul class="portfolio-card-list list">
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+          <ul class="portfolio__list list">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/technokryak.jpg"
                     alt="Технокряк"
@@ -99,15 +99,15 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">Технокряк</h3>
-                  <p class="portfolio-txt">Веб-сайт</p>
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">Технокряк</h3>
+                  <p class="portfolio__txt">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/poster.jpg"
                     alt="Постер New Orlean vs Golden Star"
@@ -120,17 +120,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Постер<span lang="en">New Orlean vs Golden Star</span>
                   </h3>
-                  <p class="portfolio-txt">Дизайн</p>
+                  <p class="portfolio__txt">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/restoran.jpg"
                     alt="Ресторан Seafood"
@@ -143,17 +143,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Ресторан<span lang="en">Seafood</span>
                   </h3>
-                  <p class="portfolio-txt">Приложение</p>
+                  <p class="portfolio__txt">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/proekt-prime.jpg"
                     alt="Проект Prime"
@@ -166,17 +166,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Проект<span lang="en">Prime</span>
                   </h3>
-                  <p class="portfolio-txt">Маркетинг</p>
+                  <p class="portfolio__txt">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/proekt-boxes.jpg"
                     alt="Проект Boxes"
@@ -189,17 +189,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Проект<span lang="en">Boxes</span>
                   </h3>
-                  <p class="portfolio-txt">Приложение</p>
+                  <p class="portfolio__txt">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/no-bordes.jpg"
                     alt="Inspiration has no Borders"
@@ -212,17 +212,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title" lang="en">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title" lang="en">
                     Inspiration has no Borders
                   </h3>
-                  <p class="portfolio-txt">Веб-сайт</p>
+                  <p class="portfolio__txt">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/limited-edition.jpg"
                     alt="Издание Limited Edition"
@@ -235,17 +235,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Издание<span lang="en">Limited Edition</span>
                   </h3>
-                  <p class="portfolio-txt">Дизайн</p>
+                  <p class="portfolio__txt">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/proekt-lab.jpg"
                     alt="Проект LAB"
@@ -258,17 +258,17 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title">
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title">
                     Проект<span lang="en">LAB</span>
                   </h3>
-                  <p class="portfolio-txt">Маркетинг</p>
+                  <p class="portfolio__txt">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card">
-              <a class="portfolio-link link" href="">
-                <div class="portfolio-overlay">
+            <li class="portfolio__card">
+              <a class="portfolio__link link" href="">
+                <div class="portfolio__overlay">
                   <img
                     src="./images/growing-business.jpg"
                     alt="Growing Business"
@@ -281,9 +281,9 @@
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
-                <div class="portfolio-text">
-                  <h3 class="portfolio-title" lang="en">Growing Business</h3>
-                  <p class="portfolio-txt">Приложение</p>
+                <div class="portfolio__text">
+                  <h3 class="portfolio__title" lang="en">Growing Business</h3>
+                  <p class="portfolio__txt">Приложение</p>
                 </div>
               </a>
             </li>
@@ -291,24 +291,24 @@
         </div>
       </section>
     </main>
-    <footer class="footer-container">
+   <footer class="footer-container">
       <div class="container footer-box">
         <div class="address-container">
-          <a class="logo-link footer-logo link" href="WebStudio"
-            ><span class="logo-web">Web</span>Studio</a
+          <a class="footer__logo logo link" href="WebStudio"
+            ><span class="logo__web">Web</span>Studio</a
           >
-          <address class="footer-address">
-            <ul class="footer-address-list list">
-              <li class="footer-address-item">
+          <address class="address">
+            <ul class="address__list list">
+              <li class="address__item">
                 г. Киев, пр-т Леси Украинки, 26
               </li>
-              <li class="footer-address-item">
-                <a class="address-link link" href="mailto:info@example.com"
+              <li class="address__item">
+                <a class="address__link link" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-address-item">
-                <a class="address-link link" href="tel:+380991111111"
+              <li class="address__item">
+                <a class="address__link link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -316,51 +316,51 @@
           </address>
         </div>
         <div class="social">
-          <h3 class="social-title">присоединяйтесь</h3>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a class="social-link-icon footer-icon" href="">
-                <svg class="social-icon">
+          <h3 class="social__title">присоединяйтесь</h3>
+          <ul class="social__list list">
+            <li class="social__item">
+              <a class="social__link-icon footer-icon" href="">
+                <svg class="social__icon">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link-icon footer-icon" href="">
-                <svg class="social-icon">
+            <li class="social__item">
+              <a class="social__link-icon footer-icon" href="">
+                <svg class="social__icon">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link-icon footer-icon" href="">
-                <svg class="social-icon">
+            <li class="social__item">
+              <a class="social__link-icon footer-icon" href="">
+                <svg class="social__icon">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link-icon footer-icon" href="">
-                <svg class="social-icon">
+            <li class="social__item">
+              <a class="social__link-icon footer-icon" href="">
+                <svg class="social__icon">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="form-box">
-          <h3 class="social-title">Подпишитесь на рассылку</h3>
-          <form class="form-box-mail">
-            <label class="footer-form-label">
+        <div class="footer__form">
+          <h3 class="social__title">Подпишитесь на рассылку</h3>
+          <form class="footer__form-mail">
+            <label class="footer__label">
               <input
                 type="email"
                 name="user-email"
                 placeholder="E-mail"
-                class="footer-form-input"
+                class="footer__input"
               />
             </label>
-          <button class="modal-footer-btn" type="submit">Подписаться
-            <svg class="form-icon">
+          <button class="footer-button" type="submit">Подписаться
+            <svg class="form__icon">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
           </button>

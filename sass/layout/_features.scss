@@ -1,11 +1,11 @@
 .features {
-  &-list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
   }
-  &-icon {
+  &__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,17 +14,17 @@
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  &-icon-list {
+  &__icon {
     width: 70px;
     height: 70px;
   }
-  &-item {
+  &__item {
     width: 270px;
     flex-wrap: calc((100% - 120px) / 4);
     margin-top: 30px;
     margin-left: 30px;
   }
-  &-title {
+  &__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +32,7 @@
     margin-bottom: 10px;
     text-transform: uppercase;
   }
-  &-desc {
+  &__desc {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

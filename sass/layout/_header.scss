@@ -6,33 +6,27 @@
     display: flex;
     align-items: center;
   }
-  &-contacts-list {
+  &__contacts {
     margin-left: auto;
     display: flex;
     align-items: center;
   }
-  &-icon-mail {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-  }
-  &-icon-mobile {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-  }
 }
+.contacts__icon {
+  margin-right: 10px;
+}
+
 .menu {
-  &-list {
+  &__list {
     display: flex;
     align-items: center;
   }
-  &-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.menu-link {
+.menu__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -62,7 +56,7 @@
   }
 }
 
-.contact-link {
+.contacts__link {
   display: flex;
   align-items: center;
   font-weight: 500;

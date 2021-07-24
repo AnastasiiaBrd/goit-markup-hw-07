@@ -1,8 +1,8 @@
-.customer-list {
+.customer__list {
   display: flex;
   justify-content: space-between;
 }
-.customer-item {
+.customer__item {
   margin-right: 30px;
 
   &:last-child {
@@ -10,7 +10,7 @@
   }
 }
 
-.customer-link {
+.customer__link {
   display: flex;
   align-items: center;
   justify-content: center;
